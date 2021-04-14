@@ -1,0 +1,19 @@
+package day01;
+
+public class C3_Variables2 {
+
+	public static void main(String[] args) {
+		
+		String ismim="Mehmet";
+		String soyisim="Bulutluoz";
+		System.out.print(ismim);
+		System.out.println(soyisim);
+		
+		System.out.println(ismim+ " " + soyisim);
+		System.out.println(ismim+' ' + soyisim);
+		
+		char bosluk = ' ' ;
+		System.out.println(ismim+bosluk+soyisim);
+	}
+
+}
